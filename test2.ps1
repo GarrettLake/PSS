@@ -12,3 +12,7 @@ $appPoolStatus = Invoke-Command -ComputerName computernamehere { param($apn) Imp
 add-content -path C:\test\logs\test.txt -value "serverA app pool is $appPoolStatus"
 
 echo $appPoolStatus
+
+
+
+test
